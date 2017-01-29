@@ -1,0 +1,7 @@
+ext.githubProjectName = "vfu-github-flow"
+
+buildscript {
+    apply from: file("$scriptsDir/common-gradle/buildscript.gradle"), to: buildscript
+}
+
+apply from: "$scriptsDir/common-gradle/javaapp.gradle"
