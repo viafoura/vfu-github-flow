@@ -5,3 +5,5 @@ buildscript {
 }
 
 apply from: "$scriptsDir/common-gradle/javaapp.gradle"
+
+mainClassName="com.viafoura.vfu.github.flow/Hello"
