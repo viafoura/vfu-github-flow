@@ -7,3 +7,7 @@ buildscript {
 apply from: "$scriptsDir/common-gradle/javaapp.gradle"
 
 mainClassName="com.viafoura.vfu.github.flow/Hello"
+
+task wrapper(type: Wrapper) {
+       gradleVersion = '3.3' //version required
+}
